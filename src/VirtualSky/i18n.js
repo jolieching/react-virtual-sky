@@ -9,6 +9,7 @@ import it from '../i18n/it.json';
 import nl from '../i18n/nl.json';
 import pl from '../i18n/pl.json';
 import pt from '../i18n/pt.json';
+import hi from '../i18n/hi.json';
 
 export const i18n = (lang) =>{
     switch(lang){
@@ -16,6 +17,7 @@ export const i18n = (lang) =>{
       case 'cs': return cs; break;
       case 'de': return de; break;
       case 'en': return en; break;
+      case 'hi': return hi; break;
       case 'es': return es; break;
       case 'fr': return fr; break;
       case 'gl': return gl; break;
